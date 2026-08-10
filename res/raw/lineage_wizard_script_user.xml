@@ -17,6 +17,12 @@
     <WizardAction
         wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_RESTORE_BACKUP;end"
         id="restore">
+        <result wizard:action="microg_setup" />
+    </WizardAction>
+
+    <WizardAction
+        wizard:uri="intent:#Intent;action=org.microg.installer.updater.SETUP_WIZARD;end"
+        id="microg_setup">
         <result wizard:action="location_settings" />
     </WizardAction>
 
