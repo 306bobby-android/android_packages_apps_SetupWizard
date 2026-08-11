@@ -83,4 +83,12 @@
     <string name="light">Light</string>
     <string name="accessibility_text_reading_conversation_message_1">Any weekend plans?</string>
     <string name="accessibility_text_reading_conversation_message_2">Heading to the beach. Want to join?</string>
+
+    <!-- microG page -->
+    <string name="setup_microg_title">microG Services</string>
+    <string name="setup_microg_summary">microG replaces Google Play Services with privacy-friendly open-source alternatives. You can set up services and an open-source app store now.</string>
+    <string name="setup_include_aurora_summary"><b>Include Aurora Store</b>\nAn open-source Google Play Store client to easily search and install apps.</string>
+    <string name="setup_advanced_options">Advanced options</string>
+    <string name="setup_include_gsf_summary"><b>microG Services Framework</b>\nLegacy Google Services Framework support, needed by some older apps.</string>
+    <string name="setup_include_aurora_services_summary"><b>Aurora Store Companion</b>\nLets Aurora Store install and update apps in the background. Requires Aurora Store.</string>
 </resources>

@@ -131,9 +131,6 @@
         <result wizard:action="oem_post_setup" />
     </WizardAction>
     <WizardAction wizard:uri="intent:#Intent;package=org.lineageos.setupwizard;action=org.lineageos.setupwizard.LINEAGE_RESTORE_BACKUP;end" id="oem_post_setup">
-        <result wizard:action="microg_setup" />
-    </WizardAction>
-    <WizardAction wizard:uri="intent:#Intent;action=org.microg.installer.updater.SETUP_WIZARD;end" id="microg_setup">
         <result wizard:action="device_specific" />
     </WizardAction>
     <WizardAction wizard:uri="intent:#Intent;package=org.lineageos.setupwizard;action=org.lineageos.setupwizard.DEVICE_SPECIFIC;end" id="device_specific">
@@ -149,6 +146,9 @@
         <result wizard:action="navigation_settings" />
     </WizardAction>
     <WizardAction wizard:uri="intent:#Intent;package=org.lineageos.setupwizard;action=org.lineageos.setupwizard.NAVIGATION_SETTINGS;end" id="navigation_settings">
+        <result wizard:action="microg_setup" />
+    </WizardAction>
+    <WizardAction wizard:uri="intent:#Intent;package=org.lineageos.setupwizard;action=org.lineageos.setupwizard.LINEAGE_MICROG_SETUP;end" id="microg_setup">
         <result wizard:action="finish" />
     </WizardAction>
     <WizardAction wizard:uri="intent:#Intent;package=org.lineageos.setupwizard;action=org.lineageos.setupwizard.LINEAGE_SETUP_COMPLETE;end" id="finish">

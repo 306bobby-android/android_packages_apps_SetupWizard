@@ -277,6 +277,19 @@
         </activity>
 
         <activity
+            android:name=".MicroGSetupActivity"
+            android:label="@string/activity_label_empty"
+            android:configChanges="mcc|mnc"
+            android:immersive="true"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="org.lineageos.setupwizard.LINEAGE_MICROG_SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".ThemeSettingsActivity"
             android:label="@string/activity_label_empty"
             android:configChanges="mcc|mnc"
